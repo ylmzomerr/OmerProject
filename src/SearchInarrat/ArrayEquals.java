@@ -9,4 +9,8 @@ public class ArrayEquals {
 
         System.out.println(Arrays.equals(arr,copy));
     }
+    public static int callnum(){
+
+        return 5;
+    }
 }
