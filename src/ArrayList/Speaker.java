@@ -11,8 +11,12 @@ public class Speaker {
         names.add("Omer");
         names.add("John");
         names.add("Rony");
+
         System.out.println(names);
         System.out.println(names.get(0));
+        System.out.println(names.size());
+        System.out.println(names.add("Selim"));
+        System.out.println(names.get(4));
         System.out.println(names.isEmpty());
     }
 }
