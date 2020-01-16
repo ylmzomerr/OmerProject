@@ -1,5 +1,7 @@
 package Constructors;
 
+import java.math.BigInteger;
+
 public class Student {
     String name;
     String lastname;
@@ -32,7 +34,7 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student ahmet=new Student("omer","","KOMPO",6,14);
+        Student ahmet = new Student( "omer", "", "KOMPO", 6, 14 );
 
     }
 
